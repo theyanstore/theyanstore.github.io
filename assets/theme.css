@@ -1,0 +1,134 @@
+:root {
+    --primary: #2f64f5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e0e !important;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white; /* Цвет текста в навигационных ссылках */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: white; /* Цвет иконки бургера (если она видна) */
+}
+.navbar {
+    color: #343a40; /* Добавьте этот стиль, чтобы сделать текст белым */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+h1 {
+    font-weight: 700 !important;
+}
+
+.select {
+    color: var(--primary);
+}
+
+.gradient {
+    /* background: linear-gradient(-45deg, #2f925a, #449aeb); */
+    background: linear-gradient(-45deg, #131313, #6c6c6c);
+	background-size: 300% 300%;
+	animation: gradient 15s ease infinite;
+}
+
+nav a {
+    font-weight: 600 !important;
+    font-size: 18px !important;
+}
+
+.jumbotron.title {
+    color: #f2f2f2 !important;
+    padding: 100px;
+    text-align: center;
+}
+
+.jumbotron.title p {
+    font-size: 20px !important;
+}
+
+.jumbotron.title .btn {
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0);
+}
+
+::selection {
+    background: var(--primary);
+    color: #f2f2f2;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.block2 {
+    text-align: center;
+    color: #f2f2f2;
+    margin-top: 100px;
+}
+
+.block2 ul {
+    text-align: left !important;
+}
+
+.block2 .card2 {
+    margin: 30px auto;
+    color: #f2f2f2;
+    float: none;
+    margin-bottom: 50px;
+    width: 400px;
+}
+
+.block2 h1 {
+    font-size: 54px;
+}
+
+.block2 h2 {
+    font-size: 28px;
+}
+
+.block2 p {
+    font-size: 20px;
+}
+
+/* ===== Scrollbar CSS ===== вау какое карсивое*/
+  /* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #474747 #292929;
+}
+
+  /* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #292929;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #474747;
+    border: 0px none #ffffff;
+}
